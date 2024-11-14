@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  background-color: #a4a7aa;
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  text-decoration-style: wavy;
+  text-align: center;
+  color: #0b79b9;
+  background-color: rgb(149, 154, 158);
+}
+
+h2,
+h3 {
+    background-color: #bfc6cc;
+  border-width: 2px;
+  border-style: dashed;
+  border-radius: 5pt;
+}
+
+.flex-pantry-parent {
+  display: flex;
+}
+.flex-pantry-child {
+  flex: 1;
+  border: 2px solid #8a2be2;
+  border-style: dotted;
+  border-radius: 20pt;
+  background-color: #c4bea3;
+  margin: 10px;
+}
+
+.flex-fridge-parent {
+  display: flex;
+  padding-bottom: 2.5rem;
+}
+
+.flex-fridge-child {
+  flex: 1;
+  border: 2px solid #8a2be2;
+  border-style: dotted;
+  border-radius: 20pt;
+  background-color: #6d97be;
+  margin: 10px;
+}
+
+img {
+  width: 30%;
+  padding: 20pt;
+}
+.recipe {
+  width: 70%;
+  padding: 20pt;
+}
+.top-nav {
+  overflow: hidden;
+  background-color: #272727;
+}
+
+.top-nav a {
+  float: left;
+  color: #8a8484;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: double;
+  font-size: 17px;
+}
+
+.top-nav a:hover {
+  background-color: #a4a7aa;
+  color: #ffffff;
+}
+.wrapper {
+  display: flex;
+  margin: auto;
+  max-width: 75rem;
+  min-height: 100vh;
+}
+.content {
+  flex: 1;
+}
+
+.sidebar {
+  flex: 0 1 300pt;
+  background-color: #c4cacf;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  margin-top: auto;
+  width: 100%;
+  background-color: #272727;
+  color: #8a8484;
+  text-align: center;
+  padding: 1px;
+}
