@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  background-color: #e6e8eb;
+  font-family: "Roboto Mono", Courier, monospace;
+}
+h1 {
+  color: #23d349;
+}
+h2 {
+  padding: 5pt;
+}
+h3 {
+  padding: 5pt;
+}
+p {
+  padding: 5pt;
+}
+.card {
+  box-shadow: 0 4px 8px 0 #05050533;
+  transition: 0.2s;
+  width: 40%;
+  padding: 5pt;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 #05050533;
+}
+
+.card-container {
+  padding: 1px 15px;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+.avatar {
+  flex: 1;
+  width:70%;
+  padding:15pt;
+  border-radius: 50%;
+  display: flex;
+}
+
+.top-nav {
+  overflow: hidden;
+  background-color: #272727;
+}
+
+.top-nav a {
+  float: left;
+  color: #8a8484;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: double;
+  font-size: 17px;
+}
+
+.top-nav a:hover {
+  background-color: #a4a7aa;
+  color: #ffffff;
+}
+.wrapper {
+  display: flex;
+  margin: auto;
+  max-width: 75rem;
+  min-height: 100vh;
+}
+.content {
+  flex: 1;
+  padding: 10pt;
+}
+
+.sidebar {
+  flex: 0 1 200pt;
+  background-color: #c4cacf;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  margin-top: auto;
+  width: 100%;
+  background-color: #272727;
+  color: #8a8484;
+  text-align: center;
+  padding: 1px;
+}
+
+.image {
+  width: 50%;
+}
