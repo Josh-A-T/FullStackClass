@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background-color: #e6e8eb;
+  font-family: "Roboto Mono", Courier, monospace;
+}
+h1 {
+  font-size: 2rem;
+
+}
+h2, h3, p {
+  padding: 1rem;
+}
+
+.top-nav {
+  overflow: hidden;
+  background-color: #272727;
+}
+
+.top-nav a {
+  float: left;
+  color: #8a8484;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: double;
+  font-size: 17px;
+}
+
+.top-nav a:hover {
+  background-color: #a4a7aa;
+  color: #ffffff;
+}
+.wrapper {
+  z-index: auto;
+  display: flex;
+  margin: auto;
+  max-width: 100rem;
+  min-height: 100vh;
+}
+.content {
+  flex: 1;
+  padding: 10pt;
+}
+
+.sidebar {
+  flex: 0 1 150pt;
+  background-color: #c4cacf;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  margin-top: auto;
+  width: 100%;
+  background-color: #272727;
+  color: #8a8484;
+  text-align: center;
+  padding: 1px;
+}
+
