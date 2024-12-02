@@ -11,22 +11,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
   </head>
-
+<!-- Rough draft of a future profile website. Setting up the different sections with anchors to make a single landing page rather than a website with discrete pages for each section -->
   <body>
-    <header>
+    <header class="topnav" id="myTopnav">
       <img src="./img/avatar.jpg" class="avatar" />
       <h1>Josh T</h1>
-      <nav>
+      <div>
+        <a href="#"></a>
         <a href="#about">About</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#skills">Skills</a>
         <a href="#education">Education</a>
         <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
-      </nav>
+        <a href="javascript:void(0);" class="icon" onclick="hamburgerNavFunc()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
     </header>
 
     <section class="hero">
@@ -51,10 +58,10 @@
       <div class="social-buttons">
         <a href="#" target="_blank" class="social-button github">GitHub</a>
       </div>
-      <div class="social-buttons">
+      <!--<div class="social-buttons">
         <a href="#" target="_blank" class="social-button stackoverflow">Stackoverflow</a>
       </div>
-      <!--<div class="social-buttons">
+      <div class="social-buttons">
         <a href="#" target="_blank" class="social-button medium">Medium</a>
       </div>-->
       <div class="social-buttons">
@@ -76,8 +83,8 @@
       </div>
       <div class="social-buttons">
         <a href="#" target="_blank" class="social-button tiktok">tiktok</a>
-      </div>
-    --></section>
+      </div> -->
+    </section>
 
     <section id="portfolio" class="content">
       <h3>My Projects</h3>
