@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Josh T Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens and to make social icons easier-->
+  <script src="https://kit.fontawesome.com/b06996c298.js" crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
+</head>
+<!-- Rough draft of a future profile website. Setting up the different sections with anchors to make a single landing page rather than a website with discrete pages for each section -->
+
+<body>
+  <header class="topnav" id="myTopnav">
+    <img src="./img/avatar.jpg" class="avatar" />
+    <h1>Josh T</h1>
+    <div>
+      <a href="#"></a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="hamburgerNavFunc()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to My Portfolio</h2>
+    <p>
+      A passionate web developer who loves crafting beautiful and performant
+      websites.
+    </p>
+    <a href="#portfolio">View My Work</a>
+  </section>
+
+  <section id="about" class="empty-container">
+    <h3>About Me</h3>
+    <div class="wrapper">
+      <aside class="sidebar">
+        <img src="./img/avatar.jpg" class="profileImg" />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam non laborum obcaecati vitae, eius recusandae praesentium fuga optio ex, facere modi! Officia fuga qui expedita accusamus quaerat iure. Quo, officiis?
+        <br /> <hr>
+        <div class="social-buttons">
+          <a href="#" target="_blank" class="social-button github"><i class="fa-brands fa-github"></i></a>
+          <a href="#" target="_blank" class="social-button stackoverflow"><i class="fa-brands fa-stack-overflow"></i></a>
+          <a href="#" target="_blank" class="social-button medium"><i class="fa-brands fa-medium"></i></a>
+          <a href="#" target="_blank" class="social-button linkedin"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" target="_blank" class="social-button twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" target="_blank" class="social-button mastodon"><i class="fa-brands fa-mastodon"></i></a>
+          <a href="#" target="_blank" class="social-button bsky"><i class="fa-brands fa-bluesky"></i></a>
+          <a href="#" target="_blank" class="social-button youtube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" target="_blank" class="social-button tiktok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </aside>
+      
+      <section class="main-content">
+        <p>
+          Hi, I'm Joshua T., a web developer based in centeral Oklahoma. My
+          expertise lies in crafting fully-responsive, elegant, and user-friendly
+          websites. I love turning complex problems into simple and intuitive
+          solutions.
+        </p>
+      </section>
+    </div>
+  </section>
+
+  <section id="portfolio" class="content">
+    <h3>My Projects</h3>
+    <!-- Lets show off a bit and use CSS grid to layout this section and use CSS flexbox for another-->
+    <div class="grid-container">
+      <div class="grid-card">
+        <h4>Project 1</h4>
+        <img src="./img/placeholder-landscape.png" />
+        <p>
+          A brief description of Project 1 goes here. It's an awesome project.
+        </p>
+      </div>
+      <div class="grid-card">
+        <h4>Project 2</h4>
+        <img src="./img/placeholder-landscape.png" />
+        <p>
+          A brief description of Project 2 goes here. It's an amazing project.
+        </p>
+      </div>
+      <div class="grid-card">
+        <h4>Project 3</h4>
+        <img src="./img/placeholder-landscape.png" />
+        <p>
+          A brief description of Project 3 goes here. It's a fantastic
+          project.
+        </p>
+      </div>
+      <div class="grid-card">
+        <h4>Project 4</h4>
+        <img src="./img/placeholder-landscape.png" />
+        <p>
+          A brief description of Project 4 goes here. It's an innovative
+          project.
+        </p>
+      </div>
+    </div>
+
+      <div class="custom-btn">
+        <button>Load More...</button>
+      </div> 
+  </section>
+
+  <section id="skills" class="empty-container">
+    <h3>My Skills</h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. At sed, omnis,
+      itaque deserunt dolorum veniam mollitia magni neque quasi id laudantium
+      distinctio earum nobis necessitatibus, hic illum porro fugit delectus?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. At sed, omnis,
+      itaque deserunt dolorum veniam mollitia magni neque quasi id laudantium
+      distinctio earum nobis necessitatibus, hic illum porro fugit delectus?
+    </p>
+  </section>
+
+  <section id="education" class="content">
+    <h3>Education</h3>
+    <div class="wrapper">
+      <aside class="sidebar">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Reprehenderit quasi voluptatibus tempora reiciendis corrupti, debitis
+        aperiam distinctio harum ullam repellendus excepturi eligendi totam
+        repudiandae, tempore quae praesentium! Sequi, quae hic.
+      </aside>
+      <section class="main-content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime non
+        earum enim, sapiente aliquid accusamus soluta error quia fugit natus
+        explicabo expedita voluptas hic provident molestiae asperiores
+        laboriosam! Sed, magnam!
+      </section>
+    </div>
+  </section>
+
+  <section id="experience" class="empty-container">
+    <h3>Experience</h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+      voluptas velit ipsam impedit! Impedit quaerat earum illum pariatur neque
+      hic accusantium iste consectetur consequatur, nobis labore, eligendi
+      laboriosam ipsum amet.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. At sed, omnis,
+      itaque deserunt dolorum veniam mollitia magni neque quasi id laudantium
+      distinctio earum nobis necessitatibus, hic illum porro fugit delectus?
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h3>Contact Me</h3>
+
+    <form action="redirect.html" method="post">
+      <p>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required /> <br />
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required />
+        <label for="msg">Message:</label>
+        <textarea id="msgArea" name="user_message"></textarea>
+      </p>
+      <p>
+        <input type="submit" value="Submit" />
+      </p>
+
+  </section>
+  <footer>
+    <p>
+      &copy; 2024 Josh T | <a href="#">Github</a> |
+      <a href="#">Stackoverflow</a> | <a href="#">Medium</a> | <a href="#">LinkedIn</a> | <a href="#">Twitter</a> | <a href="#">Mastodon</a> | <a href="#">Bsky</a> | <a href="#">Youtube</a> | <a href="#">Tiktok</a>
+    </p>
+  </footer>
+</body>
+
+</html>

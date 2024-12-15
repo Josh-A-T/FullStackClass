@@ -285,15 +285,14 @@ footer a {
 
 .social-buttons {
   display: grid;
-  grid-template-columns: auto auto auto;
-  margin-top: 20px;
+  grid-template-columns:repeat(3, 1fr);
+  margin: 5px;
 }
 
 .social-button {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 10px;
   padding: 10px;
   color: #ffffff;
   border-radius: 5px;
